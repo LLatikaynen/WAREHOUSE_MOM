@@ -1,7 +1,7 @@
 # DEZSYS_GK73_WAREHOUSE_MOM
 Join GIT repository:  https://github.com/ThomasMicheler/DEZSYS_GK73_WAREHOUSE_MOM.git
 
-## Einführung
+## Einführung test
 
 Diese Übung soll die Funktionsweise und Implementierung von eine Message Oriented Middleware (MOM) mit Hilfe des **Frameworks Apache Kafka** demonstrieren. **Message Oriented Middleware (MOM)** ist neben InterProcessCommunication (IPC), Remote Objects (RMI) und Remote Procedure Call (RPC) eine weitere Möglichkeit um eine Kommunikation zwischen mehreren Rechnern umzusetzen.
 
