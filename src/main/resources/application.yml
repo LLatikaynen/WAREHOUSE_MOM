@@ -1,7 +1,16 @@
 spring:
-  application:
-    name: "demo"
   kafka:
-    bootstrap-servers: "localhost:9092"
+    bootstrap-servers: localhost:9092
     consumer:
-      group-id: "myGroup"
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      acks: 1
+
+logging:
+  level:
+    org.springframework.kafka: INFO
+    org.apache.kafka: WARN
